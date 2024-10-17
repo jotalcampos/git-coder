@@ -1,0 +1,67 @@
+/* estilos del formulario */
+@import "../utility/variables";
+main{
+    .contact_form{
+        .formulario{
+            h1{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            h3{
+                font-size: 15px;
+            }
+            }
+            width: 460px;
+            height: auto;
+            margin: 80px auto;
+            border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #dd7a00c7;
+        input{
+            background-color: $color-secundario;
+            width: 408px;
+            height: 40px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000000;
+            margin-top: 10px;
+            padding-left: 10px;
+        }
+        label{
+            font-weight: 500;
+        }
+        textarea{
+            background-color: $color-secundario;
+            width: 405px;
+            height: 150px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000000;
+            margin-top: 10px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+        button{
+            height: 45px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            background-color: $color-principal;
+            border-color: $color-principal;
+            border-style: solid;
+            border-radius: 10px;
+            width: 420px;
+            cursor: pointer;
+            p{
+                color: #ffff;
+                margin-top: 6px;
+                text-align: center;
+            }
+        }
+    }
+}

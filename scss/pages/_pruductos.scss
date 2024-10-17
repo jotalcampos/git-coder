@@ -1,0 +1,35 @@
+@import "../utility/mixin";
+/* estilos de todos los productos */
+main{
+    .imagenes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .img{
+            border-radius: 10px;
+            margin-left: 15px;
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .imagenes{
+        .img{
+            width: 45%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .imagenes{
+        .img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
